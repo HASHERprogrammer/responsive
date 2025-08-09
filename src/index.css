@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: PlayWrite;
+  src: url('../src/assets/Fonts/PlaywriteHU-Regular.ttf');
+}
+@font-face {
+  font-family: BebasNeue;
+  src: url('../src/assets/Fonts/BebasNeue-Regular.ttf');
+}
+
+@theme{
+  --font-playWrite : PlayWrite;
+  --font-BebasNeue : BebasNeue
+}
+
+.outlined-text {
+    color: transparent; /* remove fill */
+    -webkit-text-stroke: 2px black; /* stroke width + color */
+  }
