@@ -14,7 +14,7 @@ const Landing = () => {
         </div>
 
         <div>
-          <img src="/src/assets/Images/pic.jpg" alt="" className='object-cover w-full' />
+          <img src="https://media.istockphoto.com/id/2149186896/vector/girl-working-on-laptop-vector-illustration-working-from-home-and-freelance-concept.jpg?s=612x612&w=0&k=20&c=JD3Lc9oJaBtF4loCBhfq_xitz8rQyJCN1u7xSQDyrtw=" alt="" className='object-cover w-full' />
         </div>
       </div>
 
