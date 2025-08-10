@@ -4,17 +4,38 @@
   font-family: PlayWrite;
   src: url('../src/assets/Fonts/PlaywriteHU-Regular.ttf');
 }
+
 @font-face {
   font-family: BebasNeue;
   src: url('../src/assets/Fonts/BebasNeue-Regular.ttf');
 }
 
-@theme{
-  --font-playWrite : PlayWrite;
-  --font-BebasNeue : BebasNeue
+@theme {
+  --font-playWrite: PlayWrite;
+  --font-BebasNeue: BebasNeue
 }
 
 .outlined-text {
-    color: transparent; /* remove fill */
-    -webkit-text-stroke: 2px black; /* stroke width + color */
+  color: transparent;
+  /* remove fill */
+  -webkit-text-stroke: 2px black;
+  /* stroke width + color */
+}
+
+
+.blur {
+  filter: blur(20px)
+}
+
+.animate1 {
+  animation: animate1 3s ease-in-out infinite alternate;
+}
+
+@keyframes animate1 {
+  from {
+    transform: translate(0%, 0%);
   }
+  to {
+    transform: translate(10%, -15%);
+  }
+}

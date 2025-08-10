@@ -8,7 +8,7 @@ const Para = () => {
         // </div>
 
 
-        <div className='bg-emerald-900 overflow-hidden  text-black'>
+        <div className=' overflow-hidden leading-[clamp(2rem,calc(1rem+3.5vw),1.5rem)]  text-black text-[clamp(1rem,6vw,1.5rem)] 2xl:text-[clamp(1rem,6vw,4rem)] 2xl:leading-[5rem] px-10 py-8 font-BebasNeue '>
             Lorem ipsum, dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repudiandae commodi aut molestias fugit, blanditiis explicabo sunt necessitatibus? Sunt aperiam atque sed est, officia vitae dolorum temporibus cupiditate cumque in? consectetur adipisicing elit. Error, magnam possimus. Excepturi, quasi ipsum nisi sint saepe eum similique reprehenderit sit? Voluptatem assumenda at in cumque dignissimos incidunt earum sapiente.
         </div>
 
