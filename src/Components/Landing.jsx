@@ -12,7 +12,7 @@ const Landing = () => {
           <div className='font-playWrite text-[clamp(1rem,6vw,1.8rem)] 2xl:text-[5rem] z-10'>
             Text that implies Font
           </div>
-          <div className='z-[999]'> A simple showcase of layouts that <span className='outlined-text '>adapts</span> <span className='outlined-text'>seamlessly</span> to any device <span className='outlined-text'>!</span>
+          <div className='z-[999]'> A simple showcase of layouts that <span className='outlined-text '>adapts</span> <span className='outlined-text'>seamlessly</span> and beautifully to any device <span className='outlined-text'>!</span>
           </div>
         </div>
 
