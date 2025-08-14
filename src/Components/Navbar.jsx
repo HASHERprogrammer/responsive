@@ -4,7 +4,7 @@ const Navbar = () => {
     const [toggle, settoggle] = useState(false)
     
     return (
-        <nav className='fixed top-0 bg-zinc-900 w-screen h-16 2xl:h-28 flex items-center text-[clamp(2rem, .9rem+5vw , 5rem)] 2xl:text-3xl'>
+        <nav className='sticky top-0 left-0  bg-zinc-900 max-w-screen h-16 2xl:h-28 flex items-center text-[clamp(2rem, .9rem+5vw , 5rem)] 2xl:text-3xl'>
             <div className='flex items-center justify-between w-[95%] mx-auto'>
                 <div className="logo">
                     <span className='font-playWrite'>LOGO</span>
